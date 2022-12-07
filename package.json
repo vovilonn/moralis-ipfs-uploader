@@ -1,0 +1,22 @@
+{
+    "name": "ipfs-upload",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/main.ts",
+    "scripts": {
+        "dev": "nodemon src/main.ts",
+        "start": "ts-node src/main.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^18.11.11",
+        "nodemon": "^2.0.20",
+        "typescript": "^4.9.3"
+    },
+    "dependencies": {
+        "js-base64": "^3.7.3",
+        "moralis": "^2.8.2",
+        "ts-node": "^10.9.1"
+    }
+}
